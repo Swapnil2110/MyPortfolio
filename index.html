@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Swapnil" content="A website displaying my Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+
+        <!-- header section start -->
+        <header>
+            <div class="user">
+                <img src="./img/myphoto.jpeg">
+                <h3 class="name">Swapnil Bhagat</h3>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#download">Download Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header section end -->
+
+        <div id="menu" class="fas fa-bars">=</div>
+
+
+        
+        <!-- home section start -->
+        <section class="home" id="home" style="height: 100vh;">
+            <h3>HI THERE!</h3>
+            <h1>I'm <span>Swapnil Bhagat</span></h1>
+            <p>I designed this simple website to represent myself.</p>
+            <a href="#aboutme"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+        </section>
+        <!-- home section end -->
+
+        <!-- Education section start -->
+        <section class="education" id="education">
+            <h3>EDUCATION</h3>
+            <div class="row">
+                <div class="column" style="background-color: #333;">
+                  <h2>Bachelor of Engineering</h2>
+                  <h4>in Information Technology</h4>
+                  <p>Successfully Graduated in year 2021 from "Shri Sant Gajanan Maharaj College of Engineering, Shegaon" with 67.15% which is average of eight semesters in total</p>
+                </div>
+                <div class="column" style="background-color: #333;">
+                  <h2>Higher Secondary</h2>
+                  <p>Completed 12th standard CBSE board with 65.4% in year 2016 from "Jawahar Navodaya Vidyalaya, Akola"</p>
+                </div>
+                <div class="column" style="background-color:#333;">
+                  <h2>Secondary School</h2>
+                  <p>Completed 10th standard CBSE board with 73.8% in year 2014 from "Jawahar Navodaya Vidyalaya, Akola"</p>
+                  </div>
+              </div>
+        </section>
+        <!-- Education section end -->
+        
+
+
+        <!-- Projects section start -->
+        <section class="projects" id="projects">
+            <h3>PROJECTS</h3>
+            <div class="row">
+                <div class="column" style="background-color: #333; margin-right: 20px;">
+                    <h2>AGRI-cure : a plant disease detection Application</h2>
+                    <ul>
+                        <li>A simple python-based plant disease detection application using deep learning algorithm.</li>
+                        <li>Can classify in between 15 different types of plant diseases</li>
+                        <li>Tools: Python, Android, OpenCV, Java.</li>
+                    </ul>
+                </div>
+                <div class="column" style="background-color: #333;">
+                    <h2>SMART : An Society Management Application</h2>
+                    <ul>
+                        <li>An android Application made to make management of society a bit easy.</li>
+                        <li>Admin and User can interact with each other, User can pay bills and maintenance.</li>
+                        <li>Tools: Android, Java, XML, Firebase.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Projects section end -->
+
+
+        <!-- about me section start -->
+        <section class="aboutme" id="aboutme" style="height: 800px;">
+            <h3>ABOUT ME</h3>
+            <div class="row">
+                <div class="column">
+                    <p>
+                        "I am Swapnil, a persistent person who is seeking for oppurtunities
+                        to increase my knowledge and understanding, to help achieving greater
+                        objectives for the future."
+                    </p>
+                    <p>
+                        I Completed my grduation from Information Technology in year 2021.
+                        As I wanted to grow my abilities, I went to Hyderbad to learn further.
+                        There I selected Full-Stack Java Developer Course which was Completed in six
+                        months, from January 2022 to July 2022. In this Course I learned new technologies
+                        starting with UI design and development (which included HTML, CSS and JavaScript mainly),
+                        Core Java, Advanced Java, Oracle and basic Spring Framework. I am planning to
+                        learn Angular, React as well as Spring Boot and Microservices.
+                    </p>
+                    <p>
+                        I like to work in supportive and growing team environment as I am a consistent
+                        team player. I also loves to read, to watch anime, to solve puzzles.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="./img/about.jpg">
+                </div>
+            </div>
+        </section>
+        <!-- about me section end -->
+
+
+        <!-- Download resume section start -->
+        <section class="download" id="download">
+            <h3>DOWNLOAD RESUME</h3>
+            <p>-Click to download-</p>
+            <div class="row">
+                <div class="column">
+                    <button onclick=" window.open('./doc/resume-swapnil.pdf','_blank')">My Resume</button>
+                </div>
+                <div class="column">
+                    <button onclick=" window.open('./doc/resume1.jpg','_blank')">Resume-1</button>
+                </div>
+                <div class="column">
+                    <button onclick=" window.open('./doc/resume2.jpg','_blank')">Resume-2</button>
+                </div>
+                <div class="column">
+                    <button onclick=" window.open('./doc/resume3.png','_blank')">Resume-3</button>
+                </div>
+                <div class="column" style="margin-right: 0px;">
+                    <button onclick=" window.open('./doc/resume4.png','_blank')">Resume-4</button>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!-- Download resume section end -->
+
+        
+        
+        
+        <!-- contact section start -->
+        <section class="contact" id="contact">
+            <h3>CONTACT</h3>
+            <div class="row">
+                <div class="column" >
+                  <img src="./img/contact1.jpg">
+                  <p>+91 - 7775950934</p>
+                </div>
+                <div class="column" >
+                    <img src="./img/contact2.jpg">
+                    <p>swapnilbhagat2110@gmail.com</p>
+                </div>
+                <div class="column" style=" margin-right: 0px;">
+                    <img src="./img/contact3.png">
+                    <p><a href="https://www.linkedin.com/in/swapnil-bhagat-613592153/" target="_blank">swapnil-bhagat-613592153</a></p>
+                </div>
+              </div>
+        </section>
+        <!-- contact section end -->
+    </body>
+</html>
